@@ -19,8 +19,8 @@ jobs:
         with:
           debug: true
           styles: |
-            .github/styles/write-good.zip
-            .github/styles/Google.zip
-            .github/styles/Joblint.zip
+            ../styles/write-good.zip
+            ../styles/Google.zip
+            ../styles/Joblint.zip
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
